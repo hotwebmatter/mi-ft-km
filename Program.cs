@@ -10,7 +10,7 @@ namespace mi_ft_km
             double miles,
                    feet,
                    kilometers;
-            miles = 4.5;
+            miles = 42.75;
             feet = miles * 5280;
             kilometers = miles * 1.609;
             WriteLine("{0, 12}{1, 12}{2, 12}", "Miles", "Feet", "Kilometers");
