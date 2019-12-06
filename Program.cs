@@ -7,6 +7,7 @@ namespace mi_ft_km
     {
         static void Main(string[] args)
         {
+            double miles = 4.5;
             WriteLine("Hello World!");
         }
     }
