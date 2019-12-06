@@ -7,8 +7,14 @@ namespace mi_ft_km
     {
         static void Main(string[] args)
         {
-            double miles = 4.5;
-            WriteLine("Hello World!");
+            double miles,
+                   feet,
+                   kilometers;
+            miles = 4.5;
+            feet = miles * 5280;
+            kilometers = miles * 1.609;
+            WriteLine("{0, 12}{1, 12}{2, 12}", "Miles", "Feet", "Kilometers");
+            WriteLine("{0, 12:N2}{1, 12:N0}{2, 12:N2}", miles, feet, kilometers);
         }
     }
 }
