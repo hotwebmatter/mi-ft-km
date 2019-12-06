@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace mi_ft_km
 {
@@ -6,7 +7,7 @@ namespace mi_ft_km
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WriteLine("Hello World!");
         }
     }
 }
