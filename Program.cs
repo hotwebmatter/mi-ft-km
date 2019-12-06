@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * ######################################################
+ * ##    Programming Exercise Chapter 2 #2             ##
+ * ##    Developer: Matthew Obert                      ##
+ * ##    Date Submitted: December 5 2019               ##
+ * ##    Purpose: Width & numeric format specifiers    ##
+ * ######################################################
+ */
+
+using System;
 using static System.Console;
 
 namespace mi_ft_km
